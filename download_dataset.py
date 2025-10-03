@@ -13,3 +13,14 @@ output = "dataset.jsonl"
 print(f"Downloading dataset to {output}...")
 gdown.download(url, output, quiet=False)
 print(f"Download complete! File saved as {output}")
+
+# Google Drive folder ID for model
+folder_id = "1QKsmdbFOZGtwyQm4w4EuGWYdgwpyF1RV"
+
+# Output folder name
+output_folder = "model"
+
+# Download the folder
+print(f"Downloading model folder to {output_folder}...")
+gdown.download_folder(folder_id, output_folder, quiet=False)
+print(f"Download complete! Folder saved as {output_folder}")
