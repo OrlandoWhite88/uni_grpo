@@ -46,7 +46,7 @@ LORA_TARGET_MODULES = [
 DEFAULT_LORA_ALPHA = 64
 DEFAULT_LORA_R = 32
 
-SFT_ADAPTER_PATH = "adapter-continued-10"
+SFT_ADAPTER_PATH = "grpo-v2-step-10"
 REWARD_FILE = "reward.py"
 DATASET_PATH = "dataset.jsonl"
 DEFAULT_OUTPUT_DIR = "grpo_outputs"
