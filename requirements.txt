@@ -6,3 +6,4 @@ transformers
 peft
 trl
 accelerate
+gdown
