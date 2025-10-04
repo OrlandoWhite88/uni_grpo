@@ -7,3 +7,4 @@ peft
 trl
 accelerate
 gdown
+ninja
